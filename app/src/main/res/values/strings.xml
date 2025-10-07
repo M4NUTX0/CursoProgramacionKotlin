@@ -1,9 +1,21 @@
 <resources>
     <string name="app_name">CursoProgramacion</string>
+    <!--    EJERCICIO 1     -->
+    <string name="main_btn_proyecto001">proyecto001</string>
+    <string name="main_btn_proyecto002">proyecto002</string>
+
+    <!--    EJERCICIO 2     -->
     <string name="proyecto002_et_valor1">Ingrese el primer valor</string>
     <string name="proyecto002_et_valor2">Ingrese el segundo valor</string>
     <string name="proyecto002_btn_calcular">Calcular</string>
     <string name="proyecto002_et_resultado">Resultado</string>
-    <string name="main_btn_proyecto001">proyecto001</string>
-    <string name="main_btn_proyecto002">proyecto002</string>
+
+    <!--    EJERCICIO 3     -->
+    <string name="proyecto003_et_valor1">Ingrese el primer valor</string>
+    <string name="proyecto003_et_valor2">Ingrese el segundo valor</string>
+    <string name="proyecto003_btn_calcular">Calcular</string>
+    <string name="proyecto003_et_resultado">Resultado</string>
+    <string name="main_btn_proyecto003">proyecto003</string>
+
+
 </resources>

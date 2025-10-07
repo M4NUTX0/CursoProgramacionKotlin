@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CursoProgramacion">
         <activity
+            android:name=".proyecto003.Proyecto003"
+            android:exported="false" />
+        <activity
             android:name=".proyecto002.Proyecto002"
             android:exported="false" />
         <activity

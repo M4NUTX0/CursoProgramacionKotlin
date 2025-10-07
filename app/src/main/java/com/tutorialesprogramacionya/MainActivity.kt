@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.tutorialesprogramacionya.proyecto001.Proyecto001
 import com.tutorialesprogramacionya.proyecto002.Proyecto002
+import com.tutorialesprogramacionya.proyecto003.Proyecto003
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,6 +30,11 @@ class MainActivity : AppCompatActivity() {
 
     fun goToProyecto002(view: View) {
         val intent = Intent(this, Proyecto002::class.java)
+        startActivity(intent)
+    }
+
+    fun goToProyecto003(view: View){
+        val intent = Intent(this, Proyecto003::class.java)
         startActivity(intent)
     }
 }
