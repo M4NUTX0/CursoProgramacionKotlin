@@ -9,7 +9,6 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.tutorialesprogramacionya.proyecto001.Proyecto001
 import com.tutorialesprogramacionya.proyecto002.Proyecto002
-import com.tutorialesprogramacionya.proyecto003.Proyecto003
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

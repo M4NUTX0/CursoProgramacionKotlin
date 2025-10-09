@@ -17,5 +17,21 @@
     <string name="proyecto003_et_resultado">Resultado</string>
     <string name="main_btn_proyecto003">proyecto003</string>
 
-
+    <string name="app_name">ContinuacionProyecto</string>
+    <string name="proyecto004_et_valor1">valor1</string>
+    <string name="proyecto004_et_valor2">valor 2</string>
+    <string name="proyecto004_cb_sumar">Sumar</string>
+    <string name="proyecto004_cb_restar">Restar</string>
+    <string name="proyecto004_btn_calcular">calcular</string>
+    <string name="proyecto005_et_valor1">valor 1</string>
+    <string name="proyecto005_et_valor2">valor 2</string>
+    <string name="proyecto005_btn_calcular">calcular</string>
+    <string name="proyecto005_tv_resultado">Resultado</string>
+    <string name="proyecto004_tv_resultado">Resultado</string>
+    <string name="proyecto003_et_valor1">valor 1</string>
+    <string name="proyecto003_et_valor2">valor 2</string>
+    <string name="proyecto003_rb_sumar">Sumar</string>
+    <string name="proyecto003_rb_restar">Restar</string>
+    <string name="proyecto003_btn_calcular">calcular</string>
+    <string name="proyecto003_tv_resultado">Resultado</string>
 </resources>
