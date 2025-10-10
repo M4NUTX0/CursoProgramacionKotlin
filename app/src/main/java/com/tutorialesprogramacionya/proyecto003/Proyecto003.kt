@@ -1,16 +1,15 @@
-package com.example.continuacionproyecto
+package com.tutorialesprogramacionya.proyecto003
 
 import android.os.Bundle
-import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioButton
-import android.widget.Spinner
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.tutorialesprogramacionya.R
 
 class Proyecto003 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,10 +30,10 @@ class Proyecto003 : AppCompatActivity() {
         var resultado = findViewById<TextView>(R.id.proyecto003_tv_resultado)
 
         calcular.setOnClickListener {
-            if (radio1.isChecked) {
+            if (radio1.isSelected) {
                 resultado.text = (valor1.toString().toInt() + valor2.toString().toInt()).toString()
             }
-            if (radio2.isChecked) {
+            if (radio2.isSelected) {
                 resultado.text = (valor1.toString().toInt() - valor2.toString().toInt()).toString()
             }
         }

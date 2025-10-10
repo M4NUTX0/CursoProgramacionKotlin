@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">CursoProgramacion</string>
-    <!--    EJERCICIO 1     -->
+    <!--    MAIN        -->
+    <string name="main_btn_proyecto003">proyecto003</string>
     <string name="main_btn_proyecto001">proyecto001</string>
     <string name="main_btn_proyecto002">proyecto002</string>
+
+    <!--    EJERCICIO 1     -->
+    <string name="proyecto001_btn_saludo">Hola Mundo!</string>
 
     <!--    EJERCICIO 2     -->
     <string name="proyecto002_et_valor1">Ingrese el primer valor</string>
@@ -15,23 +19,25 @@
     <string name="proyecto003_et_valor2">Ingrese el segundo valor</string>
     <string name="proyecto003_btn_calcular">Calcular</string>
     <string name="proyecto003_et_resultado">Resultado</string>
-    <string name="main_btn_proyecto003">proyecto003</string>
+    <string name="proyecto003_rb_sumar">Sumar</string>
+    <string name="proyecto003_rb_restar">Restar</string>
+    <string name="proyecto003_tv_resultado">Resultado</string>
 
-    <string name="app_name">ContinuacionProyecto</string>
+    <!--    EJERCICIO 4     -->
     <string name="proyecto004_et_valor1">valor1</string>
     <string name="proyecto004_et_valor2">valor 2</string>
     <string name="proyecto004_cb_sumar">Sumar</string>
     <string name="proyecto004_cb_restar">Restar</string>
     <string name="proyecto004_btn_calcular">calcular</string>
+    <string name="proyecto004_tv_resultado">Resultado</string>
+
+    <!--    EJERCICIO 5     -->
     <string name="proyecto005_et_valor1">valor 1</string>
     <string name="proyecto005_et_valor2">valor 2</string>
     <string name="proyecto005_btn_calcular">calcular</string>
     <string name="proyecto005_tv_resultado">Resultado</string>
-    <string name="proyecto004_tv_resultado">Resultado</string>
-    <string name="proyecto003_et_valor1">valor 1</string>
-    <string name="proyecto003_et_valor2">valor 2</string>
-    <string name="proyecto003_rb_sumar">Sumar</string>
-    <string name="proyecto003_rb_restar">Restar</string>
-    <string name="proyecto003_btn_calcular">calcular</string>
-    <string name="proyecto003_tv_resultado">Resultado</string>
+    <string name="main_btn_proyecto004">proyecto004</string>
+    <string name="main_btn_proyecto005">proyecto005</string>
+
+
 </resources>

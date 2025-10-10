@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Proyecto003">
+    tools:context=".proyecto003.Proyecto003">
 
     <EditText
         android:id="@+id/proyecto003_et_valor1"

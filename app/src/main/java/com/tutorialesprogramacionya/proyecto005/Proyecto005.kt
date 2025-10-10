@@ -1,4 +1,4 @@
-package com.example.continuacionproyecto
+package com.tutorialesprogramacionya.proyecto005
 
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -10,6 +10,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.tutorialesprogramacionya.R
 
 class Proyecto005 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +27,7 @@ class Proyecto005 : AppCompatActivity() {
         val valor2 = findViewById<EditText>(R.id.proyecto005_et_valor2)
         val seleccion = findViewById<Spinner>(R.id.proyecto005_sp_operacion)
         val lista = arrayOf("sumar", "restar", "multiplicar", "dividir")
-        val adaptador = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, lista)
+        val adaptador = ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, lista)
         seleccion.adapter = adaptador
 
         val calcular = findViewById<Button>(R.id.proyecto005_btn_calcular)
